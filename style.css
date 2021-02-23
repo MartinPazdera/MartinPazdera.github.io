@@ -1,0 +1,75 @@
+main {
+  font-size: 20px;
+  background-color: #CCCFCF;
+}
+#links {
+  background: black;
+  font-size: 40px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding: 20px 200px 20px;
+  font-family: 'Righteous', cursive;
+}
+a {
+  color: white;
+  text-decoration-line: none;
+}
+header {
+  background: no-repeat center/220% url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png"); 
+  height: 300px;
+  padding: 0 33px;
+  justify-content: flex-end;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+#first {
+  margin-top: 90px;
+}
+#firstParagraph {
+  margin-left: 50px;
+}
+.leftSide{
+  width:25%;
+  margin-left: 100px;
+}
+.rightSide{
+  width:75%;
+  margin-right: 100px;
+}
+h1 {
+  font-size: 40px;
+  margin: 0;
+  color:#A90614;
+  font-family: 'Permanent Marker', cursive;
+}
+h2 {
+  font-size: 35px;
+  margin:0;
+  margin-top: 190px;
+}
+h3 {
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 20px;
+}
+blockquote {
+  background: #22242E;
+  color: #A90614;
+  font-size: 40px;
+  padding: 30px;
+  margin-left: 0;
+  font-family: 'Cinzel', serif;
+}
+blockquote::before {
+  content: 'ʻʻ'; 
+}
